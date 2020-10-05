@@ -1,10 +1,7 @@
 {
-	"//1": "describes your app and its dependencies",
-	"//2": "https://docs.npmjs.com/files/package.json",
-	"//3": "updating this file will download and update your packages",
-	"name": "my-hyperdev-app",
-	"version": "0.0.1",
-	"description": "What am I about?",
+	"name": "metric-imperial-converter",
+	"version": "0.1.0",
+	"description": "fCC assignment to create a metric-imperial converter.",
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js"
@@ -20,7 +17,7 @@
 		"zombie": "^6.1.4"
 	},
 	"engines": {
-		"node": "12.*"
+		"node": "4.4.3"
 	},
 	"repository": {
 		"type": "git",
