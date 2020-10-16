@@ -1,6 +1,6 @@
 {
 	"name": "metric-imperial-converter",
-	"version": "0.1.0",
+	"version": "0.2.2",
 	"description": "fCC assignment to create a metric-imperial converter.",
 	"main": "server.js",
 	"scripts": {

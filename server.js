@@ -25,6 +25,11 @@ app.route('/')
     res.sendFile(process.cwd() + '/views/index.html');
   });
 
+app.use(function(req, res, next){
+  console.log('req received.');
+  next();
+});
+
 //For FCC testing purposes
 fccTestingRoutes(app);
 
